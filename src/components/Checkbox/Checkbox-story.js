@@ -3,10 +3,15 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import Checkbox from '../Checkbox';
 
+import applyTheme from './theme';
+import styled from 'react-emotion';
+
 const checkboxEvents = {
   className: 'some-class',
   onChange: action('onChange'),
 };
+
+const CheckboxWithTheme = styled(Checkbox)(applyTheme);
 
 storiesOf('Checkbox', module)
   .addWithInfo(
@@ -121,5 +126,18 @@ storiesOf('Checkbox', module)
           hideLabel={true}
         />
       </fieldset>
+    )
+  )
+  .addWithInfo(
+    'with theme',
+    `
+      Use dynamic theme to style your component.  
+    `,
+    () => (
+      <CheckboxWithTheme
+        {...checkboxEvents}
+        id="checkbox-label-2"
+        labelText="Checkbox label"
+      />
     )
   );

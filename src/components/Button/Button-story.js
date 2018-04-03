@@ -220,8 +220,11 @@ storiesOf('Buttons', module)
     `,
     () => (
       <div>
-        <Button kind="secondary" {...buttonEvents} className="some-class">
+        <Button kind="secondary" {...buttonEvents}>
           Secondary button
+        </Button>
+        <Button kind="primary" {...buttonEvents} className="some-class">
+          Primary button
         </Button>
         <Button kind="primary" {...buttonEvents} className="some-class">
           Primary button
