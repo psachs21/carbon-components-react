@@ -11,7 +11,7 @@ TableBatchAction.propTypes = {
   /**
    * Provide a text description for the icon in the button
    */
-  iconDescription: PropTypes.string.isRequired,
+  iconDescription: PropTypes.node.isRequired,
 };
 
 TableBatchAction.defaultProps = {

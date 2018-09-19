@@ -71,7 +71,7 @@ export default class MultiSelect extends React.Component {
     /**
      * If invalid, what is the error?
      */
-    invalidText: PropTypes.string,
+    invalidText: PropTypes.node,
   };
 
   static defaultProps = {

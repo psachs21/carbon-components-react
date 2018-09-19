@@ -35,7 +35,7 @@ export default class RadioTile extends React.Component {
     /**
      * The description of the tile checkmark icon.
      */
-    iconDescription: PropTypes.string,
+    iconDescription: PropTypes.node,
 
     /**
      * The handler of the massaged `change` event on the `<input>`.

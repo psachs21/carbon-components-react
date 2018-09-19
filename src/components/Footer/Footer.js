@@ -60,12 +60,12 @@ Footer.propTypes = {
   /**
    * Provide the label for the first footer information item
    */
-  labelOne: PropTypes.string,
+  labelOne: PropTypes.node,
 
   /**
    * Provide the text for the first footer information item
    */
-  linkTextOne: PropTypes.string,
+  linkTextOne: PropTypes.node,
 
   /**
    * Provide the href attribute for the first footer information item
@@ -75,12 +75,12 @@ Footer.propTypes = {
   /**
    * Provide the label for the second footer information item
    */
-  labelTwo: PropTypes.string,
+  labelTwo: PropTypes.node,
 
   /**
    * Provide the text for the second footer information item
    */
-  linkTextTwo: PropTypes.string,
+  linkTextTwo: PropTypes.node,
 
   /**
    * Provide the href for the second footer information item
@@ -90,7 +90,7 @@ Footer.propTypes = {
   /**
    * Provide the text for the footer button
    */
-  buttonText: PropTypes.string,
+  buttonText: PropTypes.node,
 };
 
 Footer.defaultProps = {

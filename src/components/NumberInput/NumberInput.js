@@ -17,7 +17,7 @@ export default class NumberInput extends Component {
   static propTypes = {
     className: PropTypes.string,
     disabled: PropTypes.bool,
-    iconDescription: PropTypes.string.isRequired,
+    iconDescription: PropTypes.node.isRequired,
     id: PropTypes.string.isRequired,
     label: PropTypes.node,
     max: PropTypes.number,
@@ -31,7 +31,7 @@ export default class NumberInput extends Component {
     step: PropTypes.number,
     value: PropTypes.number,
     invalid: PropTypes.bool,
-    invalidText: PropTypes.string,
+    invalidText: PropTypes.node,
     helperText: PropTypes.node,
     /**
      * `true` to use the light version.

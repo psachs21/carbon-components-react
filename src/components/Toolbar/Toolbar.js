@@ -66,7 +66,7 @@ ToolbarTitle.propTypes = {
   /**
    * Specify the title of the Toolbar
    */
-  title: PropTypes.string,
+  title: PropTypes.node,
 };
 
 export const ToolbarOption = ({ children }) => (

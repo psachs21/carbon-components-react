@@ -22,7 +22,7 @@ export default class Dropdown extends PureComponent {
     onClose: PropTypes.func,
     selectedText: PropTypes.string,
     open: PropTypes.bool,
-    iconDescription: PropTypes.string,
+    iconDescription: PropTypes.node,
     disabled: PropTypes.bool,
     light: PropTypes.bool,
   };

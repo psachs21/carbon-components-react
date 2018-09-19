@@ -12,7 +12,7 @@ export default class TimePickerSelect extends Component {
     inline: PropTypes.bool,
     disabled: PropTypes.bool,
     defaultValue: PropTypes.any,
-    iconDescription: PropTypes.string.isRequired,
+    iconDescription: PropTypes.node.isRequired,
     hideLabel: PropTypes.bool,
     labelText: PropTypes.node.isRequired,
   };

@@ -167,7 +167,7 @@ export class SelectableTile extends Component {
     /**
      * The description of the checkmark icon.
      */
-    iconDescription: PropTypes.string,
+    iconDescription: PropTypes.node,
   };
 
   static defaultProps = {

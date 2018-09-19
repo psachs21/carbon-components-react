@@ -28,7 +28,7 @@ export default class PaginationV2 extends Component {
     /**
      * The description for the backward icon.
      */
-    backwardText: PropTypes.string,
+    backwardText: PropTypes.node,
 
     /**
      * The CSS class names.
@@ -44,7 +44,7 @@ export default class PaginationV2 extends Component {
     /**
      * The description for the forward icon.
      */
-    forwardText: PropTypes.string,
+    forwardText: PropTypes.node,
 
     /**
      * The unique ID of this component instance.
@@ -54,12 +54,12 @@ export default class PaginationV2 extends Component {
     /**
      * The translatable text indicating the number of items per page.
      */
-    itemsPerPageText: PropTypes.string,
+    itemsPerPageText: PropTypes.node,
 
     /**
      * A variant of `itemsPerPageText`, with a sign indicating that the number follows, e.g. ':'.
      */
-    itemsPerPageFollowsText: PropTypes.string,
+    itemsPerPageFollowsText: PropTypes.node,
 
     /**
      * A variant of `itemRangeText`, used if the total number of items is unknown.
@@ -71,7 +71,7 @@ export default class PaginationV2 extends Component {
      */
     onChange: PropTypes.func,
 
-    pageNumberText: PropTypes.string,
+    pageNumberText: PropTypes.node,
 
     /**
      * A function returning PII showing where the current page is.

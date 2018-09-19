@@ -30,7 +30,7 @@ export default class ToolbarSearch extends Component {
     /**
      * The description of the search icon.
      */
-    iconDescription: PropTypes.string,
+    iconDescription: PropTypes.node,
 
     /**
      * The placeholder text of the `<input>`.

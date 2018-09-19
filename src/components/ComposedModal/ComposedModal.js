@@ -129,12 +129,12 @@ export class ModalHeader extends Component {
     /**
      * Specify an optional label to be displayed
      */
-    label: PropTypes.string,
+    label: PropTypes.node,
 
     /**
      * Specify an optional title to be displayed
      */
-    title: PropTypes.string,
+    title: PropTypes.node,
 
     /**
      * Specify the content to be placed in the ModalHeader
@@ -145,7 +145,7 @@ export class ModalHeader extends Component {
      * Specify a description for the close icon that can be read by screen
      * readers
      */
-    iconDescription: PropTypes.string,
+    iconDescription: PropTypes.node,
 
     /**
      * Provide an optional function to be called when the modal is closed
@@ -272,7 +272,7 @@ export class ModalFooter extends Component {
     /**
      * Specify the text for the primary button
      */
-    primaryButtonText: PropTypes.string,
+    primaryButtonText: PropTypes.node,
 
     /**
      * Specify whether the primary button should be disabled
@@ -287,7 +287,7 @@ export class ModalFooter extends Component {
     /**
      * Specify the text for the secondary button
      */
-    secondaryButtonText: PropTypes.string,
+    secondaryButtonText: PropTypes.node,
 
     /**
      * Specify an optional function for when the modal is requesting to be

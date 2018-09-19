@@ -48,7 +48,7 @@ TableToolbarAction.propTypes = {
   /**
    * Specify the description of the icon for the toolbar action
    */
-  iconDescription: PropTypes.string.isRequired,
+  iconDescription: PropTypes.node.isRequired,
 };
 
 export default TableToolbarAction;

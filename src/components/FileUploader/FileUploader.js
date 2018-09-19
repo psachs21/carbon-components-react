@@ -235,13 +235,13 @@ export class Filename extends Component {
 
 export default class FileUploader extends Component {
   static propTypes = {
-    iconDescription: PropTypes.string,
-    buttonLabel: PropTypes.string,
+    iconDescription: PropTypes.node,
+    buttonLabel: PropTypes.text,
     buttonKind: ButtonTypes.buttonKind,
     filenameStatus: PropTypes.oneOf(['edit', 'complete', 'uploading'])
       .isRequired,
-    labelDescription: PropTypes.string,
-    labelTitle: PropTypes.string,
+    labelDescription: PropTypes.node,
+    labelTitle: PropTypes.node,
     multiple: PropTypes.bool,
     name: PropTypes.string,
     onClick: PropTypes.func,

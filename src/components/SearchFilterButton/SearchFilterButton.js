@@ -29,7 +29,7 @@ SearchFilterButton.propTypes = {
   /**
    * The icon description.
    */
-  iconDescription: PropTypes.string,
+  iconDescription: PropTypes.node,
 };
 
 SearchFilterButton.defaultProps = {

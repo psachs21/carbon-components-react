@@ -148,7 +148,7 @@ Icon.propTypes = {
   /**
    * The icon description.
    */
-  description: PropTypes.string.isRequired,
+  description: PropTypes.node.isRequired,
 
   /**
    * The `<svg>` `fill` attribute.

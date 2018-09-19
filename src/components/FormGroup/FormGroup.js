@@ -57,7 +57,7 @@ FormGroup.propTypes = {
   /**
    * Provide the text for the message in the <FormGroup>
    */
-  messageText: PropTypes.string,
+  messageText: PropTypes.node,
 };
 
 FormGroup.defaultProps = {

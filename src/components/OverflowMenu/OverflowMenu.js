@@ -191,7 +191,7 @@ export default class OverflowMenu extends Component {
     /**
      * The icon description.
      */
-    iconDescription: PropTypes.string.isRequired,
+    iconDescription: PropTypes.node.isRequired,
 
     /**
      * The icon.

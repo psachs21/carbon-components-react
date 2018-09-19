@@ -18,9 +18,9 @@ export default class CodeSnippet extends Component {
     className: PropTypes.string,
 
     /**
-     * Provide the content of your CodeSnippet as a string
+     * Provide the content of your CodeSnippet as a string or html content.
      */
-    children: PropTypes.string,
+    children: PropTypes.node,
 
     /**
      * Specify the string displayed when the snippet is copied
@@ -35,7 +35,7 @@ export default class CodeSnippet extends Component {
     /**
      * Specify the description for the Copy Button
      */
-    copyButtonDescription: PropTypes.string,
+    copyButtonDescription: PropTypes.node,
 
     /**
      * An optional handler to listen to the `onClick` even fired by the Copy
@@ -53,13 +53,13 @@ export default class CodeSnippet extends Component {
      * Specify a string that is displayed when the Code Snippet text is more
      * than 15 lines
      */
-    showMoreText: PropTypes.string,
+    showMoreText: PropTypes.node,
 
     /**
      * Specify a string that is displayed when the Code Snippet has been
      * interacted with to show more lines
      */
-    showLessText: PropTypes.string,
+    showLessText: PropTypes.node,
 
     /**
      * Specify whether you are using the light variant of the Code Snippet,

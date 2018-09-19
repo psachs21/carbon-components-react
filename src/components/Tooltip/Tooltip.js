@@ -173,7 +173,7 @@ export default class Tooltip extends Component {
     /**
      * The description of the default tooltip icon, to be put in its SVG `<title>` element.
      */
-    iconDescription: PropTypes.string,
+    iconDescription: PropTypes.node,
 
     /**
      * `true` if opening tooltip should be triggered by clicking the trigger button.

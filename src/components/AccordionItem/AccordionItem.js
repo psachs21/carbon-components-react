@@ -26,7 +26,7 @@ export default class AccordionItem extends Component {
     /**
      * The description of the expando icon.
      */
-    iconDescription: PropTypes.string,
+    iconDescription: PropTypes.node,
 
     /**
      * `true` to open the expando.

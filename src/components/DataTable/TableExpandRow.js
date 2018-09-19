@@ -66,7 +66,7 @@ TableExpandRow.propTypes = {
   /**
    * The description of the chevron right icon, to be put in its SVG `<title>` element.
    */
-  expandIconDescription: PropTypes.string,
+  expandIconDescription: PropTypes.node,
 };
 
 export default TableExpandRow;

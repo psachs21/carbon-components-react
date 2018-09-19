@@ -58,7 +58,7 @@ TableData.propTypes = {
   /**
    * The icon description.
    */
-  iconDescription: PropTypes.string,
+  iconDescription: PropTypes.node,
 
   /**
    * The expanded state for expando cell. `undefined` for regular cells.

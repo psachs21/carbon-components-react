@@ -15,7 +15,7 @@ export class NotificationButton extends Component {
     className: PropTypes.string,
     ariaLabel: PropTypes.string,
     type: PropTypes.string,
-    iconDescription: PropTypes.string,
+    iconDescription: PropTypes.node,
     icon: PropTypes.shape({
       width: PropTypes.string,
       height: PropTypes.string,
@@ -72,7 +72,7 @@ export class NotificationButton extends Component {
 
 export class NotificationTextDetails extends Component {
   static propTypes = {
-    title: PropTypes.string,
+    title: PropTypes.node,
     subtitle: PropTypes.node,
     caption: PropTypes.node,
     notificationType: PropTypes.oneOf(['toast', 'inline']),
@@ -114,12 +114,12 @@ export class ToastNotification extends Component {
     children: PropTypes.node,
     className: PropTypes.string,
     kind: PropTypes.oneOf(['error', 'info', 'success', 'warning']).isRequired,
-    title: PropTypes.string.isRequired,
+    title: PropTypes.node.isRequired,
     subtitle: PropTypes.node.isRequired,
     role: PropTypes.string.isRequired,
     caption: PropTypes.node,
     onCloseButtonClick: PropTypes.func,
-    iconDescription: PropTypes.string.isRequired,
+    iconDescription: PropTypes.node.isRequired,
     notificationType: PropTypes.string,
     hideCloseButton: PropTypes.bool,
     timeout: PropTypes.number,
@@ -213,11 +213,11 @@ export class InlineNotification extends Component {
     children: PropTypes.node,
     className: PropTypes.string,
     kind: PropTypes.oneOf(['error', 'info', 'success', 'warning']).isRequired,
-    title: PropTypes.string.isRequired,
+    title: PropTypes.node.isRequired,
     subtitle: PropTypes.node.isRequired,
     role: PropTypes.string.isRequired,
     onCloseButtonClick: PropTypes.func,
-    iconDescription: PropTypes.string.isRequired,
+    iconDescription: PropTypes.node.isRequired,
     notificationType: PropTypes.string,
     hideCloseButton: PropTypes.bool,
   };
@@ -304,11 +304,11 @@ export default class Notification extends Component {
     children: PropTypes.node,
     className: PropTypes.string,
     kind: PropTypes.oneOf(['error', 'info', 'success', 'warning']).isRequired,
-    title: PropTypes.string.isRequired,
-    subtitle: PropTypes.string.isRequired,
-    caption: PropTypes.string,
+    title: PropTypes.node.isRequired,
+    subtitle: PropTypes.node.isRequired,
+    caption: PropTypes.node,
     onCloseButtonClick: PropTypes.func,
-    iconDescription: PropTypes.string.isRequired,
+    iconDescription: PropTypes.node.isRequired,
     hideCloseButton: PropTypes.bool,
   };
 

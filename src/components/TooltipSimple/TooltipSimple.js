@@ -76,7 +76,7 @@ TooltipSimple.propTypes = {
     svgData: PropTypes.object.isRequired,
   }),
   iconName: PropTypes.string,
-  iconDescription: PropTypes.string,
+  iconDescription: PropTypes.node,
 };
 
 TooltipSimple.defaultProps = {

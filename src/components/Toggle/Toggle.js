@@ -82,12 +82,12 @@ Toggle.propTypes = {
   /**
    * Specify the label for the "off" position
    */
-  labelA: PropTypes.string.isRequired,
+  labelA: PropTypes.node.isRequired,
 
   /**
    * Specify the label for the "on" position
    */
-  labelB: PropTypes.string.isRequired,
+  labelB: PropTypes.node.isRequired,
 };
 
 Toggle.defaultProps = {

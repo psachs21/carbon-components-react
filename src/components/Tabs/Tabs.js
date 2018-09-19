@@ -69,7 +69,7 @@ export default class Tabs extends React.Component {
      * Provide a description that is read out when a user visits the caret icon
      * for the dropdown menu of items
      */
-    iconDescription: PropTypes.string.isRequired,
+    iconDescription: PropTypes.node.isRequired,
   };
 
   static defaultProps = {

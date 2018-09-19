@@ -88,7 +88,7 @@ ListBox.propTypes = {
   /**
    * Specify the "aria-label" of the ListBox.
    */
-  ariaLabel: PropTypes.string,
+  ariaLabel: PropTypes.node,
 };
 
 ListBox.defaultProps = {

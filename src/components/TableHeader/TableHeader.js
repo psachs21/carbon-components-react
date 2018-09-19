@@ -59,12 +59,12 @@ TableHeader.propTypes = {
   /**
    * The description for the ascending icon.
    */
-  iconDescriptionAscending: PropTypes.string,
+  iconDescriptionAscending: PropTypes.node,
 
   /**
    * The description for the descending icon.
    */
-  iconDescriptionDescending: PropTypes.string,
+  iconDescriptionDescending: PropTypes.node,
 
   /**
    * The sorting direction, `DESC` or `ASC`.

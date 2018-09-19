@@ -14,15 +14,15 @@ let didWarnAboutDeprecation = false;
 
 export default class Pagination extends Component {
   static propTypes = {
-    backwardText: PropTypes.string,
+    backwardText: PropTypes.node,
     className: PropTypes.string,
     itemRangeText: PropTypes.func,
-    forwardText: PropTypes.string,
+    forwardText: PropTypes.node,
     id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-    itemsPerPageText: PropTypes.string,
+    itemsPerPageText: PropTypes.node,
     itemText: PropTypes.func,
     onChange: PropTypes.func,
-    pageNumberText: PropTypes.string,
+    pageNumberText: PropTypes.node,
     pageRangeText: PropTypes.func,
     pageText: PropTypes.func,
     pageSizes: PropTypes.arrayOf(PropTypes.number).isRequired,
